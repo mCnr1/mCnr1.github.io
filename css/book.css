@@ -355,22 +355,11 @@ body {
     50% {
       opacity: 1;
       filter: brightness(150%);
-      transform: scale(3);
+      transform: scale(2);
     }
 }
 
 @keyframes rocketMove {
-    0% {
-        top: 288px;
-        left: 0px;
-    }
-    100% {
-        top: 10px;
-        left: 0px;
-    }
-}
-
-@keyframes rocketMoveFast {
     0% {
         top: 288px;
         left: 0px;
