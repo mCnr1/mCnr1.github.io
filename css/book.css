@@ -1,6 +1,7 @@
-html, body {
+html,
+body {
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 body {
@@ -60,8 +61,8 @@ body {
     left: 0px;
     width: 400px;
     height: 600px;
-    z-index: 1; 
-  }
+    z-index: 1;
+}
 
 .laikaRocket {
     position: absolute;
@@ -86,30 +87,30 @@ body {
 .rocketFlame {
     position: absolute;
     top: 150px;
-    left: 30px; 
+    left: 30px;
     width: 20px;
     height: 60px;
     z-index: 1;
-  
+
     background: radial-gradient(ellipse at center, rgb(255, 101, 5) 0%, rgba(255, 0, 0, 0) 80%);
     border-radius: 50%;
-  
+
     opacity: 0.8;
     filter: blur(2px);
-  
+
     animation: flameFlicker 0.2s infinite ease-in-out;
 }
-  
+
 
 .cover:hover .rocket {
-    top:288px;
+    top: 288px;
     animation: rocketMove 5s ease-in-out forwards;
     animation-fill-mode: forwards;
 }
 
 .cover:hover .rocketGroup {
     animation: rocketMove 5s ease-in-out forwards;
-  }
+}
 
 .star {
     position: absolute;
@@ -125,7 +126,7 @@ body {
     left: 18.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 0s; 
+    animation-delay: 0s;
     animation-duration: 3s;
 }
 
@@ -134,7 +135,7 @@ body {
     left: 13.5px;
     width: 2px;
     height: 2px;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-duration: 4.5s;
 }
 
@@ -143,7 +144,7 @@ body {
     left: 68.5px;
     width: 4px;
     height: 4px;
-    animation-delay: 1s; 
+    animation-delay: 1s;
     animation-duration: 1.5s;
 }
 
@@ -152,7 +153,7 @@ body {
     left: 71.5px;
     width: 2px;
     height: 2px;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-duration: 3s;
 }
 
@@ -161,7 +162,7 @@ body {
     left: 77.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-duration: 2s;
 }
 
@@ -170,7 +171,7 @@ body {
     left: 101.8px;
     width: 3px;
     height: 3px;
-    animation-delay: 3s; 
+    animation-delay: 3s;
     animation-duration: 2s;
 }
 
@@ -179,7 +180,7 @@ body {
     left: 114.5px;
     width: 2px;
     height: 2px;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-duration: 6s;
 }
 
@@ -188,7 +189,7 @@ body {
     left: 115.8px;
     width: 3px;
     height: 3px;
-    animation-delay: 1.5s; 
+    animation-delay: 1.5s;
     animation-duration: 2.5s;
 }
 
@@ -197,7 +198,7 @@ body {
     left: 124.8px;
     width: 3px;
     height: 3px;
-    animation-delay: 3.3s; 
+    animation-delay: 3.3s;
     animation-duration: 3.3s;
 }
 
@@ -206,7 +207,7 @@ body {
     left: 161px;
     width: 3px;
     height: 3px;
-    animation-delay: 2.7s; 
+    animation-delay: 2.7s;
     animation-duration: 3.2s;
 }
 
@@ -215,7 +216,7 @@ body {
     left: 158.4px;
     width: 3px;
     height: 3px;
-    animation-delay: 3.2s; 
+    animation-delay: 3.2s;
     animation-duration: 2s;
 }
 
@@ -224,7 +225,7 @@ body {
     left: 176.4px;
     width: 3px;
     height: 3px;
-    animation-delay: 5.4s; 
+    animation-delay: 5.4s;
     animation-duration: 2s;
 }
 
@@ -233,7 +234,7 @@ body {
     left: 207.4px;
     width: 3px;
     height: 3px;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-duration: 1.5s;
 }
 
@@ -242,7 +243,7 @@ body {
     left: 238.8px;
     width: 3px;
     height: 3px;
-    animation-delay: 1.3s; 
+    animation-delay: 1.3s;
     animation-duration: 3.2s;
 }
 
@@ -251,7 +252,7 @@ body {
     left: 255.2px;
     width: 3px;
     height: 3px;
-    animation-delay: 2.5s; 
+    animation-delay: 2.5s;
     animation-duration: 1.3s;
 }
 
@@ -260,7 +261,7 @@ body {
     left: 276.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 1.2s; 
+    animation-delay: 1.2s;
     animation-duration: 1.7s;
 }
 
@@ -269,7 +270,7 @@ body {
     left: 297.2px;
     width: 3px;
     height: 3px;
-    animation-delay: 5.4s; 
+    animation-delay: 5.4s;
     animation-duration: 4.3s;
 }
 
@@ -278,7 +279,7 @@ body {
     left: 325.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 4.3s; 
+    animation-delay: 4.3s;
     animation-duration: 5s;
 }
 
@@ -287,7 +288,7 @@ body {
     left: 325px;
     width: 3px;
     height: 3px;
-    animation-delay: 2.1s; 
+    animation-delay: 2.1s;
     animation-duration: 3s;
 }
 
@@ -296,7 +297,7 @@ body {
     left: 314.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 4.6s; 
+    animation-delay: 4.6s;
     animation-duration: 2.1s;
 }
 
@@ -305,7 +306,7 @@ body {
     left: 353px;
     width: 3px;
     height: 3px;
-    animation-delay: 2.1s; 
+    animation-delay: 2.1s;
     animation-duration: 2.5s;
 }
 
@@ -314,7 +315,7 @@ body {
     left: 363px;
     width: 3px;
     height: 3px;
-    animation-delay: 1.3s; 
+    animation-delay: 1.3s;
     animation-duration: 2s;
 }
 
@@ -323,7 +324,7 @@ body {
     left: 350px;
     width: 3px;
     height: 3px;
-    animation-delay: 3s; 
+    animation-delay: 3s;
     animation-duration: 3s;
 }
 
@@ -332,30 +333,35 @@ body {
     left: 376.5px;
     width: 3px;
     height: 3px;
-    animation-delay: 0s; 
+    animation-delay: 0s;
     animation-duration: 3s;
 }
+
 @keyframes fadeIn {
     0% {
-      opacity: 0;
-      transform: translateY(-10px); 
+        opacity: 0;
+        transform: translateY(-10px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0); 
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
 @keyframes twinkle {
-    0%, 100% {
-      opacity: 0.5;
-      filter: brightness(80%);
-      transform: scale(1);
+
+    0%,
+    100% {
+        opacity: 0.5;
+        filter: brightness(80%);
+        transform: scale(1);
     }
+
     50% {
-      opacity: 1;
-      filter: brightness(150%);
-      transform: scale(2);
+        opacity: 1;
+        filter: brightness(150%);
+        transform: scale(2);
     }
 }
 
@@ -364,6 +370,7 @@ body {
         top: 288px;
         left: 0px;
     }
+
     100% {
         top: 10px;
         left: 0px;
@@ -372,18 +379,20 @@ body {
 
 @keyframes flameFlicker {
     0% {
-      transform: scaleY(1);
-      opacity: 0.8;
-      filter: blur(1px);
+        transform: scaleY(1);
+        opacity: 0.8;
+        filter: blur(1px);
     }
+
     50% {
-      transform: scaleY(1.5);
-      opacity: 1;
-      filter: blur(4px);
+        transform: scaleY(1.5);
+        opacity: 1;
+        filter: blur(4px);
     }
+
     100% {
-      transform: scaleY(1);
-      opacity: 0.7;
-      filter: blur(1px);
+        transform: scaleY(1);
+        opacity: 0.7;
+        filter: blur(1px);
     }
 }
